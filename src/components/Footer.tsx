@@ -1,5 +1,5 @@
 import { Send, Mail, Instagram, Twitter, Linkedin } from 'lucide-react';
-
+import logoSrc from '../assets/image/Logo.png';
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -39,7 +39,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center">
-                <img src="src/assets/image/Logo.png" alt="FortSolve Logo"/>
+                <img src={logoSrc} alt="FortSolve Logo"/>
               </div>
               <span className="text-xl">FortSolve</span>
             </a>
