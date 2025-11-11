@@ -34,8 +34,8 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white">F</span>
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+              <img src="src/assets/image/Logo.svg" alt="FortSolve Logo" className="brightness-0 invert" />
             </div>
             <span className="text-xl">FortSolve</span>
           </a>
