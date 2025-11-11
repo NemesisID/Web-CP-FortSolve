@@ -84,7 +84,7 @@ export function Stats() {
   return (
     <section className="relative py-20 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950" />
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {stats.map((stat, index) => (
@@ -98,21 +98,27 @@ export function Stats() {
             >
               <div className="relative bg-gradient-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm p-6 md:p-8 rounded-2xl border border-gray-700 hover:border-gray-600 transition-all">
                 {/* Icon */}
-                <div className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${stat.color} mb-4`}>
+                <div
+                  className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${stat.color} mb-4`}
+                >
                   <stat.icon size={24} className="text-white" />
                 </div>
 
                 {/* Value */}
-                <div className="text-3xl md:text-4xl mb-2">
+                <div className="text-3xl md:text-4xl mb-2 flex items-baseline gap-1">
                   <Counter end={stat.value} />
-                  <span className="ml-1">{stat.suffix}</span>
+                  <span>{stat.suffix}</span>
                 </div>
 
                 {/* Label */}
-                <div className="text-gray-400 text-sm md:text-base">{stat.label}</div>
+                <div className="text-gray-400 text-sm md:text-base">
+                  {stat.label}
+                </div>
 
                 {/* Glow Effect */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${stat.color} rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity blur-xl`} />
+                <div
+                  className={`absolute inset-0 bg-gradient-to-br ${stat.color} rounded-2xl opacity-0 group-hover:opacity-10 transition-opacity blur-xl`}
+                />
               </div>
             </motion.div>
           ))}

@@ -47,15 +47,6 @@ export function CTA() {
           <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-blue-600/10 rounded-3xl" />
 
           <div className="relative z-10 text-center">
-            {/* Icon */}
-            <div className="flex justify-center mb-6">
-              <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full blur-2xl opacity-50 animate-pulse" />
-                <div className="relative bg-gradient-to-br from-cyan-500 to-blue-600 p-4 rounded-2xl">
-                  <Send size={32} className="text-white" />
-                </div>
-              </div>
-            </div>
 
             {/* Heading */}
             <h2 className="text-3xl md:text-5xl mb-4">
@@ -75,13 +66,12 @@ export function CTA() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
               <a
-                href="https://t.me/fortsolve_bot"
+                href="https://wa.me/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all flex items-center space-x-2"
               >
-                <Send size={20} />
-                <span>Mulai di Telegram</span>
+                <span>Hubungi Kami</span>
                 <ArrowRight
                   size={20}
                   className="group-hover:translate-x-1 transition-transform"
@@ -98,28 +88,10 @@ export function CTA() {
 
             {/* Contact Info */}
             <div className="pt-8 border-t border-gray-700">
-              <p className="text-gray-400 mb-4">
+              <p className="text-gray-400">
                 Butuh konsultasi atau request demo?
+                <br /> Hubungi contact diatas
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center text-sm">
-                <a
-                  href="https://t.me/fortsolve_admin"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-cyan-400 hover:text-cyan-300 transition-colors flex items-center justify-center space-x-2"
-                >
-                  <Send size={16} />
-                  <span>@fortsolve_admin</span>
-                </a>
-                <span className="hidden sm:block text-gray-600">|</span>
-                <a
-                  href="mailto:support@fortsolve.com"
-                  className="text-cyan-400 hover:text-cyan-300 transition-colors flex items-center justify-center space-x-2"
-                >
-                  <Mail size={16} />
-                  <span>support@fortsolve.com</span>
-                </a>
-              </div>
             </div>
           </div>
         </motion.div>

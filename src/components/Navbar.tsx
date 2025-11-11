@@ -35,7 +35,7 @@ export function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center space-x-2">
             <div className="w-10 h-10 rounded-lg flex items-center justify-center">
-              <img src="src/assets/image/Logo.svg" alt="FortSolve Logo" className="brightness-0 invert" />
+              <img src="src/assets/image/Logo.png" alt="FortSolve Logo" className="brightness-0 invert" />
             </div>
             <span className="text-xl">FortSolve</span>
           </a>

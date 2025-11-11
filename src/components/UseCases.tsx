@@ -24,7 +24,7 @@ export function UseCases() {
       category: 'UMKM',
       title: 'Jasa & Freelance',
       description: 'Buat yang suka project-based atau jasa. Track income dari berbagai klien & project.',
-      benefits: ['Multi project tracking', 'Invoice & payment reminder', 'Cash flow monitoring'],
+      benefits: ['Multi project tracking', 'Cash flow monitoring'],
       gradient: 'from-purple-500 to-pink-600',
     },
     {
@@ -32,7 +32,7 @@ export function UseCases() {
       category: 'Personal',
       title: 'Keuangan Pribadi',
       description: 'Atur gaji, cicilan, dan pengeluaran harian. Bikin budget plan yang realistis.',
-      benefits: ['Budget per kategori', 'Track cicilan & tagihan', 'Saving goals'],
+      benefits: ['Input financials', 'Monitoring Keuangan Pribadi'],
       gradient: 'from-pink-500 to-rose-600',
     },
     {
@@ -40,7 +40,7 @@ export function UseCases() {
       category: 'Personal',
       title: 'Ibu Rumah Tangga',
       description: 'Kelola uang belanja bulanan, tabungan keluarga, dan dana darurat dengan rapi.',
-      benefits: ['Belanja tracking', 'Tabungan keluarga', 'Reminder kebutuhan rutin'],
+      benefits: ['Belanja tracking', 'Tabungan keluarga'],
       gradient: 'from-rose-500 to-orange-600',
     },
     {

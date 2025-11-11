@@ -100,34 +100,8 @@ export function Hero() {
               Lihat Cara Kerja
             </a>
           </motion.div>
-
-          {/* Telegram Bot Icon */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-16 flex justify-center"
-          >
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full blur-2xl opacity-30 animate-pulse" />
-              <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-2xl border border-gray-700">
-                <Send size={48} className="text-cyan-400" />
-              </div>
-            </div>
-          </motion.div>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Infinity }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
-      >
-        <div className="w-6 h-10 border-2 border-gray-700 rounded-full flex items-start justify-center p-2">
-          <div className="w-1.5 h-1.5 bg-cyan-400 rounded-full" />
-        </div>
-      </motion.div>
     </section>
   );
 }

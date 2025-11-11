@@ -15,18 +15,13 @@ export function Pricing() {
         'Unlimited transaksi',
         'Telegram bot access',
         'Dashboard web lengkap',
-        'Multi akun & kategori',
         'Laporan otomatis',
         'Export Excel/PDF',
         'Real-time sync',
-        'Reminder & notifikasi',
-        'Data encryption',
-        'Support via email',
         'Mobile responsive',
-        'Update fitur gratis',
       ],
       cta: 'Mulai Berlangganan',
-      highlight: 'Paling Populer',
+      highlight: '✩ Paling Populer',
     },
     {
       name: 'Enterprise',
@@ -42,7 +37,6 @@ export function Pricing() {
         'Role & permission management',
         'Custom kategori unlimited',
         'API access',
-        'White-label option',
         'Dedicated support',
         'Custom integration',
         'Advanced analytics',
@@ -131,20 +125,8 @@ export function Pricing() {
                   )}
                 </div>
 
-                {/* CTA Button */}
-                <a
-                  href={plan.name === 'Enterprise' ? '#cta' : '#cta'}
-                  className={`w-full py-3 rounded-lg text-center transition-all mb-8 ${
-                    plan.popular
-                      ? `bg-gradient-to-r ${plan.gradient} hover:shadow-lg hover:shadow-cyan-500/50`
-                      : 'border border-gray-700 hover:border-gray-600 hover:bg-gray-800/50'
-                  }`}
-                >
-                  {plan.cta}
-                </a>
-
                 {/* Features */}
-                <div className="space-y-3 flex-1">
+                <div className="space-y-3 flex-1 mb-6">
                   {plan.features.map((feature, i) => (
                     <div key={i} className="flex items-start space-x-3">
                       <div className={`p-1 rounded-full bg-gradient-to-br ${plan.gradient} flex-shrink-0 mt-0.5`}>
@@ -154,6 +136,18 @@ export function Pricing() {
                     </div>
                   ))}
                 </div>
+
+                {/* CTA Button */}
+                <a
+                  href={plan.name === 'Enterprise' ? '#cta' : '#cta'}
+                  className={`w-full py-3 rounded-lg text-center transition-all ${
+                    plan.popular
+                      ? `bg-gradient-to-r ${plan.gradient} hover:shadow-lg hover:shadow-cyan-500/50`
+                      : 'border border-gray-700 hover:border-gray-600 hover:bg-gray-800/50'
+                  }`}
+                >
+                  {plan.cta}
+                </a>
 
                 {/* Hover Glow */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${plan.gradient} rounded-2xl opacity-0 group-hover:opacity-5 transition-opacity blur-xl`} />
@@ -170,9 +164,6 @@ export function Pricing() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-center mt-12"
         >
-          <p className="text-gray-400">
-            Semua harga sudah termasuk PPN. Pembayaran via transfer bank atau e-wallet.
-          </p>
           <p className="text-gray-500 mt-2 text-sm">
             Tidak ada free trial. Untuk demo, silakan hubungi admin atau kirim email.
           </p>

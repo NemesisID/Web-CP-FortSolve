@@ -38,8 +38,8 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white">F</span>
+              <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+                <img src="src/assets/image/Logo.png" alt="FortSolve Logo"/>
               </div>
               <span className="text-xl">FortSolve</span>
             </a>

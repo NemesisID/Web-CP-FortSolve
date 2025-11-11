@@ -18,7 +18,7 @@ export function Features() {
   const features = [
     {
       icon: Zap,
-      title: 'Input Super Cepat',
+      title: 'Input Cepat',
       description: 'Catat transaksi via chat Telegram, gak perlu buka app khusus',
       color: 'from-cyan-500 to-blue-600',
     },
@@ -35,28 +35,10 @@ export function Features() {
       color: 'from-purple-500 to-pink-600',
     },
     {
-      icon: Bell,
-      title: 'Reminder Otomatis',
-      description: 'Notifikasi untuk jatuh tempo tagihan & target keuangan',
-      color: 'from-pink-500 to-rose-600',
-    },
-    {
       icon: Calendar,
       title: 'Laporan Periodik',
       description: 'Laporan harian, mingguan, dan bulanan otomatis dikirim',
       color: 'from-rose-500 to-orange-600',
-    },
-    {
-      icon: Wallet,
-      title: 'Multi Akun',
-      description: 'Kelola berbagai rekening & dompet dalam satu platform',
-      color: 'from-orange-500 to-amber-600',
-    },
-    {
-      icon: FileText,
-      title: 'Kategori Fleksibel',
-      description: 'Atur kategori income & expense sesuai kebutuhan bisnis',
-      color: 'from-amber-500 to-yellow-600',
     },
     {
       icon: TrendingUp,
