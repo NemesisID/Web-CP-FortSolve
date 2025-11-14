@@ -171,10 +171,19 @@
     font-feature-settings: var(--default-font-feature-settings, normal);
     font-variation-settings: var(--default-font-variation-settings, normal);
     -webkit-tap-highlight-color: transparent;
+    /* Untuk Firefox */
+    scrollbar-width: none;
   }
 
   body {
     line-height: inherit;
+    /* Untuk Internet Explorer dan Edge (versi lama) */
+    -ms-overflow-style: none;
+  }
+
+  /* Untuk Chrome, Safari, dan Edge */
+  body::-webkit-scrollbar {
+    display: none;
   }
 
   hr {
