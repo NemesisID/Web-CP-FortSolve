@@ -34,18 +34,18 @@ export function Footer() {
     <footer className="relative bg-gray-950 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <a href="#" className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center">
-                <img src={logoSrc} alt="FortSolve Logo"/>
+                <img src={logoSrc} alt="FortSolve Logo" />
               </div>
               <span className="text-xl">FortSolve</span>
             </a>
             <p className="text-gray-400 mb-6 max-w-sm">
-              Platform otomasi pencatatan keuangan untuk UMKM dan keuangan pribadi via Telegram bot.
-              Simple, smart, dan efisien.
+              Platform otomasi pencatatan keuangan untuk UMKM dan keuangan
+              pribadi via Telegram bot. Simple, smart, dan efisien.
             </p>
             {/* Social Links */}
             <div className="flex space-x-4">
@@ -58,7 +58,10 @@ export function Footer() {
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors group"
                   aria-label={social.label}
                 >
-                  <social.icon size={18} className="text-gray-400 group-hover:text-cyan-400 transition-colors" />
+                  <social.icon
+                    size={18}
+                    className="text-gray-400 group-hover:text-cyan-400 transition-colors"
+                  />
                 </a>
               ))}
             </div>

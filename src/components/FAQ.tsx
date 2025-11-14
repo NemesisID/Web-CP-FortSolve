@@ -16,19 +16,19 @@ export function FAQ() {
     },
     {
       question: 'Bagaimana cara catat transaksi di Telegram?',
-      answer: 'Super simple! Tinggal chat ke bot dengan format yang udah disediakan. Contoh: "Beli bahan 50000" untuk pengeluaran, atau "Terima bayaran 100000" untuk pemasukan. Bot akan otomatis kategorikan dan simpan datanya.',
+      answer: 'Super simple! Tinggal chat ke bot tanpa ada format khusus, yang penting Informatif untuk dicatat. Contoh: "Beli 2 nasi goreng 50000 di Warung Pak Andre" untuk pengeluaran, atau "Terima bayaran 100000 dari Bos" untuk pemasukan. Bot akan otomatis kategorikan dan simpan datanya.',
     },
     {
       question: 'Apakah data keuangan saya aman?',
-      answer: 'Absolutely! Semua data di-enkripsi end-to-end. Kita juga gak share data kamu ke pihak ketiga manapun. Privacy dan keamanan data adalah prioritas utama FortSolve.',
+      answer: 'Tentu saja! Semua data di-enkripsi end-to-end. Kita juga gak share data kamu ke pihak ketiga manapun. Privacy dan keamanan data adalah prioritas utama FortSolve.',
     },
     {
       question: 'Bisa akses dari HP dan komputer?',
-      answer: 'Bisa dong! Dashboard web FortSolve fully responsive. Kamu bisa akses dari HP, tablet, atau komputer. Data langsung tersinkronisasi real-time di semua device.',
+      answer: 'Bisa dong! Dashboard web FortSolve fully responsive. Kamu bisa akses dari HP, tablet, atau komputer. Tampilan langsung tersinkronisasi real-time di semua device.',
     },
     {
       question: 'Metode pembayaran apa yang diterima?',
-      answer: 'Pembayaran bisa via transfer bank (BCA, Mandiri, BRI, BNI) atau e-wallet (GoPay, OVO, DANA). Setelah subscribe, kamu akan dapat invoice dengan detail pembayaran.',
+      answer: 'Pembayaran bisa via transfer bank (BCA, BNI, SeaBank, dan Jago) atau e-wallet (GoPay dan ShopeePay). Untuk detail dan cara berlangganan bisa segera tanyakan ke Customer Service',
     },
     {
       question: 'Bisa export data ke Excel atau PDF?',
